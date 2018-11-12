@@ -1,5 +1,5 @@
 var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.promit('数字当てゲーム。0～3の数字を入れよう！'));
+var answer = parseInt(window.prompt('数字当てゲーム。0～3の数字を入れよう！'));
 
 var message;
 if(answer === number){
