@@ -22,6 +22,6 @@ refresh();
 }
 
 var refresh= function(){
-	setTimeout(quiz,5000);
+	setTimeout(quiz,3000);
 }
 quiz();
